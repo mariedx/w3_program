@@ -22,5 +22,6 @@ describe "sum_of_3_or_5_multiples" do
     expect(sum_of_3_or_5_multiples(0)).to eq(0)
     expect(sum_of_3_or_5_multiples(3)).to eq(0)
     expect(sum_of_3_or_5_multiples(-1)).to eq("Yo ! Je ne prends que les entiers naturels. TG")
+    expect(sum_of_3_or_5_multiples("chiffre")).to eq("Yo ! Je ne prends que les entiers naturels. TG")
   end 
 end 
